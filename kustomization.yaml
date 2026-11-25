@@ -7,5 +7,7 @@ configMapGenerator:
     files:
       - index.html
       - orca.jpg
+      - matrix-server=well-known-server.json
+      - matrix-client=well-known-client.json
     options:
       disableNameSuffixHash: true
